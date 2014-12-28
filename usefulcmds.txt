@@ -1,0 +1,3 @@
+find the frequency of the 5th column
+cut -f 5 -d "," Logfile.CSV | sort | uniq -c | sort  > freq.txt
+
